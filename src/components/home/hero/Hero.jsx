@@ -1,8 +1,8 @@
 
 const Hero = () => {
     return (
-        <div className='max-w-7xl mx-auto px-4'>
-            <div className='w-full h-[calc(100vh-96px)] md:rounded-4xl overflow-hidden'>
+        <div className='md:max-w-7xl mx-auto px-4 pb-16'>
+            <div className='w-full md:h-[670px] h-[268px] rounded-4xl overflow-hidden mt-4 md:mt-0'>
                 <iframe
                     className='w-full h-full'
                     src="https://www.youtube.com/embed/J2grFKR2188"

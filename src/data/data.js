@@ -112,17 +112,6 @@ export const hotelData = [
         image: "/images/hotel.png",
         availability: "Available",
     },
-    {
-        id: 4,
-        name: "Julia Dens Resort",
-        rating: 4.5,
-        reviews: 1200,
-        description: "Live a little and celebrate with champagne",
-        price: 240,
-        discount: 30,
-        image: "/images/hotel2.png",
-        availability: "Available",
-    },
 ]
 
 export const restaurants = [

@@ -1,5 +1,6 @@
 "use client";
 import PrivateRoute from "@/components/privet-route/PrivetRoute";
+import Footer from "@/components/shared/footer/Footer";
 import Navbar from "@/components/shared/navbar/Navbar";
 import store from "@/redux/store";
 import { usePathname } from "next/navigation";
@@ -28,7 +29,7 @@ export default function RootLayoutClient({ children }) {
           <div className={`container min-h-[calc(100vh-72px)] mx-auto max-w-full`}>
             {children}
           </div>
-          {/* <Footer /> */}
+          <Footer />
         </PrivateRoute>
       </Provider>
     </>

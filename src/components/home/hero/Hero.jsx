@@ -1,10 +1,11 @@
+import PageContainer from '@/components/PageContainer/PageContainer';
 import Image from 'next/image';
 import React from 'react';
 
 const Hero = () => {
     return (
-        <>
-            <div className=''>
+        <PageContainer>
+            <div className='pt-6'>
                 <Image
                     src='/images/hero.png'
                     width={500}
@@ -13,7 +14,7 @@ const Hero = () => {
                     className='md:w-full md:h-[700px] rounded-2xl'
                 />
             </div>
-        </>
+        </PageContainer>
     );
 };
 

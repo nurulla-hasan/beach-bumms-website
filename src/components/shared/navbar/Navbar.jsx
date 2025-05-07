@@ -47,7 +47,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="h-[72px] ">
+    <div className="h-[72px]">
       <nav
         className={`fixed w-full bg-white mx-auto z-50 transition-all duration-300 md:py-1`}
       >

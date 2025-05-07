@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import Image from "next/image"
 import { galleryImages } from "@/data/data"
 import { RxCross2 } from "react-icons/rx";
+import PageContainer from "@/components/PageContainer/PageContainer";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
@@ -36,8 +37,8 @@ const Gallery = () => {
   }
 
   return (
-    <section className="py-12 px-4">
-      <div className="container mx-auto max-w-6xl">
+    <PageContainer>
+      <div className="container mx-auto max-w-7xl">
         <h2 className="text-3xl font-bold text-blue-900 mb-8">Gallery</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">
@@ -140,7 +141,7 @@ const Gallery = () => {
         </div>
 
         <div className="text-center mt-8">
-          <button className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded font-medium transition-colors">
+          <button className="bg-primary hover:hprimary text-white px-6 py-2 rounded font-medium transition-colors">
             VIEW MORE
           </button>
         </div>
@@ -172,7 +173,7 @@ const Gallery = () => {
           </div>
         </div>
       )}
-    </section>
+    </PageContainer>
   )
 }
 

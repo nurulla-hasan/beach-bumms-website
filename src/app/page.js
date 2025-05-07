@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <>
       <Hero />
-      <Welcome />
+      {/* <Welcome /> */}
       <AboutUs />
       <FeaturesSection />
       <Hotels/>

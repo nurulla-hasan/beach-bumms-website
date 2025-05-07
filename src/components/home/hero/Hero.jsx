@@ -4,13 +4,13 @@ import React from 'react';
 const Hero = () => {
     return (
         <>
-            <div className='mt-4'>
+            <div className=''>
                 <Image
                     src='/images/hero.png'
                     width={500}
                     height={500}
                     alt=''
-                    className='md:w-full md:h-[700px]'
+                    className='md:w-full md:h-[700px] rounded-2xl'
                 />
             </div>
         </>

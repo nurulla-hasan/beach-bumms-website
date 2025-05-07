@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
           position="right-bottom"
           reverseOrder={false}
         />
-            <div className={`${inter.variable}`}>
+            <div className={`${inter.variable} bg-white`}>
               <RootLayoutClient>{children}</RootLayoutClient>
             </div>
       </body>

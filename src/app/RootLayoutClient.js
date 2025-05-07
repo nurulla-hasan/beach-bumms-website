@@ -21,16 +21,13 @@ export default function RootLayoutClient({ children }) {
     <>
       <Provider store={store}>
         <PrivateRoute>
-            {
-              !hideNavbar && <Navbar />
-            }
-          <div className={`relative min-h-[calc(100vh-88px)] bg-white`}>
-            {/* Content */}
-            <div className={`relative container mx-auto max-w-full`}>
-              {children}
-            </div>
+          {
+            !hideNavbar && <Navbar />
+          }
+          {/* Content */}
+          <div className={`container min-h-[calc(100vh-72px)] mx-auto max-w-ful`}>
+            {children}
           </div>
-
           {/* <Footer /> */}
         </PrivateRoute>
       </Provider>

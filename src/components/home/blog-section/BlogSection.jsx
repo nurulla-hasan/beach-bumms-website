@@ -9,7 +9,6 @@ import { blogPosts } from "@/data/data";
 const BlogSection = () => {
   return (
     <PageContainer>
-      <section className="py-16">
         <div className="flex items-center gap-3 mb-10">
           <h2 className="text-3xl font-bold text-[#003366]">Jesses blog</h2>
           <span className="text-xs font-semibold bg-primary text-white px-3 py-1 rounded-full">
@@ -51,11 +50,10 @@ const BlogSection = () => {
         </div>
 
         <div className="text-center mt-10">
-          <button className="bg-primary text-white px-6 py-2 text-sm font-semibold rounded hover:bg-[#007bbd] transition">
+          <button className="bg-primary text-white px-6 py-2 text-sm font-semibold rounded hover:bg-[#007bbd] transition cursor-pointer">
             LOAD MORE
           </button>
         </div>
-      </section>
     </PageContainer>
   );
 };

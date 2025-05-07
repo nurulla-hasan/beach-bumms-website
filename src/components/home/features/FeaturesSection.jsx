@@ -6,7 +6,6 @@ import Image from "next/image";
 const FeaturesSection = () => {
   return (
     <PageContainer>
-      <section className="py-16">
         <h2 className="text-2xl md:text-3xl font-bold text-[#003366] mb-12">
           Top 7 reasons of what makes us different
         </h2>
@@ -30,7 +29,6 @@ const FeaturesSection = () => {
             LEARN MORE
           </button>
         </div>
-      </section>
     </PageContainer>
 
   );

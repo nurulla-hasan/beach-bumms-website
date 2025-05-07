@@ -45,8 +45,8 @@ const ForgotPasswordForm = () => {
         <Image
           src="/images/auth-image.png"
           alt="Beach illustration"
-          width={1000}
-          height={500}
+          width={3000}
+          height={2500}
           className="object-cover w-full h-screen"
           priority
         />

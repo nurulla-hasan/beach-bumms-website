@@ -4,17 +4,17 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <PageContainer>
-            <div className='pt-6'>
+        <>
+            <div className=''>
                 <Image
                     src='/images/hero.png'
-                    width={500}
-                    height={500}
+                    width={3640}
+                    height={2040}
                     alt=''
-                    className='md:w-full md:h-[700px] rounded-2xl'
+                    className='md:w-full md:h-[calc(100vh-96px)]'
                 />
             </div>
-        </PageContainer>
+        </>
     );
 };
 

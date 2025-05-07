@@ -43,8 +43,8 @@ const LoginFormContent = () => {
         <Image
           src="/images/auth-image.png"
           alt="Beach illustration"
-          width={500}
-          height={500}
+          width={3000}
+          height={2500}
           className="object-cover w-full"
           priority
         />

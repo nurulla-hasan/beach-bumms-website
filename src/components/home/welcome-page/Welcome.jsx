@@ -1,10 +1,11 @@
+import PageContainer from '@/components/PageContainer/PageContainer';
 import Image from 'next/image';
 import React from 'react';
 
 const Welcome = () => {
     return (
-        <>
-            <div className='md:py-26 py-16'>
+        <PageContainer>
+            <div className='md:py-10'>
                 <h1 className='md:text-8xl text-5xl text-center font-semibold mb-8'>
                     Welcome to
                 </h1>
@@ -25,7 +26,7 @@ const Welcome = () => {
                     />
                 </div>
             </div>
-        </>
+        </PageContainer>
     );
 };
 

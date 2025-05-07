@@ -13,7 +13,9 @@
   --font-mono: var(--font-geist-mono);
   --breakpoint-3xl: 120rem;
   --color-auth-border: #4f4f59;
-  --color-primary: #008EC4
+  --color-primary: #008EC4;
+  --color-hover_color: #0078A4;
+  --color-title_color: #003245;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,6 +24,15 @@
     --foreground: #ededed;
   }
 }
+
+.scrl-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrl-hide {
+  -ms-overflow-style: none; /* IE/Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
 
 body {
   background: var(--background);

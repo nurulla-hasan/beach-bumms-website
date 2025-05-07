@@ -27,7 +27,6 @@ const testimonials = [
 const Testimonials = () => {
     return (
         <PageContainer>
-            <div className="py-16 ">
                 <section className="p-4 rounded-xl border border-gray-300">
                     <h2 className="text-2xl font-semibold text-[#003366] mb-6">Testimonials</h2>
                     <FaQuoteLeft className="text-primary w-10 h-10 mx-auto mb-6" />
@@ -60,7 +59,6 @@ const Testimonials = () => {
 
 
                 </section>
-            </div>
         </PageContainer>
     );
 };

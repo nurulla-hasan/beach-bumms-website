@@ -77,3 +77,134 @@ export const blogPosts = [
         image: "/images/blog1.png",
     },
 ];
+
+export const hotelData = [
+    {
+        id: 1,
+        name: "Julia Dens Resort",
+        rating: 4.5,
+        reviews: 1200,
+        description: "Live a little and celebrate with champagne",
+        price: 240,
+        discount: 30,
+        image: "/images/hotel.png",
+        availability: "Available",
+    },
+    {
+        id: 2,
+        name: "Julia Dens Resort",
+        rating: 4.5,
+        reviews: 1200,
+        description: "Live a little and celebrate with champagne",
+        price: 240,
+        discount: 30,
+        image: "/images/hotel2.png",
+        availability: "Available",
+    },
+    {
+        id: 3,
+        name: "Julia Dens Resort",
+        rating: 4.5,
+        reviews: 1200,
+        description: "Live a little and celebrate with champagne",
+        price: 240,
+        discount: 30,
+        image: "/images/hotel.png",
+        availability: "Available",
+    },
+    {
+        id: 4,
+        name: "Julia Dens Resort",
+        rating: 4.5,
+        reviews: 1200,
+        description: "Live a little and celebrate with champagne",
+        price: 240,
+        discount: 30,
+        image: "/images/hotel2.png",
+        availability: "Available",
+    },
+]
+
+export const restaurants = [
+    {
+        id: 1,
+        name: "Julia Dens Restaurant",
+        description:
+            "Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies",
+        rating: 4.5,
+        reviews: 1200,
+        image: "/images/hotel.png",
+    },
+    {
+        id: 2,
+        name: "Julia Dens Restaurant",
+        description:
+            "Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies",
+        rating: 4.5,
+        reviews: 1200,
+        image: "/images/hotel2.png",
+    },
+    {
+        id: 3,
+        name: "Julia Dens Restaurant",
+        description:
+            "Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies",
+        rating: 4.5,
+        reviews: 1200,
+        image: "/images/hotel.png",
+    },
+    {
+        id: 4,
+        name: "Julia Dens Restaurant",
+        description:
+            "Reats include a glass of French champagne, parking and a late checkout. Gym included. Flexible cancellation applies",
+        rating: 4.5,
+        reviews: 1200,
+        image: "/images/hotel2.png",
+    },
+]
+
+export const galleryImages = [
+    {
+      id: 1,
+      src: "/images/gallery.png",
+      alt: "Beach sunset with waves",
+      size: "large",
+    },
+    {
+      id: 2,
+      src: "/images/gallery.png",
+      alt: "Beach sunset with waves",
+      size: "medium",
+    },
+    {
+      id: 3,
+      src: "/images/gallery.png",
+      alt: "Beach sunset with waves",
+      size: "small",
+    },
+    {
+      id: 4,
+      src: "/images/gallery.png",
+      alt: "Beach sunset with waves",
+      size: "small",
+    },
+    {
+      id: 5,
+      src: "/images/gallery.png",
+      alt: "Beach sunset with waves",
+      size: "small",
+    },
+    {
+      id: 6,
+      src: "/images/gallery.png",
+      alt: "Beach sunset with waves",
+      size: "small",
+    },
+    {
+      id: 7,
+      src: "/images/gallery.png",
+      alt: "Beach sunset with waves",
+      size: "large",
+    },
+  ]

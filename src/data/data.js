@@ -1,3 +1,4 @@
+import { FaHotel, FaHeadset, FaQuestionCircle, FaMobileAlt, FaGift, FaGlobeAmericas, FaTags, FaBan, FaStar } from 'react-icons/fa';
 export const aboutCards = [
     {
         title: "Who we are",
@@ -155,45 +156,93 @@ export const restaurants = [
 
 export const galleryImages = [
     {
-      id: 1,
-      src: "/images/gallery.png",
-      alt: "Beach sunset with waves",
-      size: "large",
+        id: 1,
+        src: "/images/gallery.png",
+        alt: "Beach sunset with waves",
+        size: "large",
     },
     {
-      id: 2,
-      src: "/images/gallery.png",
-      alt: "Beach sunset with waves",
-      size: "medium",
+        id: 2,
+        src: "/images/gallery.png",
+        alt: "Beach sunset with waves",
+        size: "medium",
     },
     {
-      id: 3,
-      src: "/images/gallery.png",
-      alt: "Beach sunset with waves",
-      size: "small",
+        id: 3,
+        src: "/images/gallery.png",
+        alt: "Beach sunset with waves",
+        size: "small",
     },
     {
-      id: 4,
-      src: "/images/gallery.png",
-      alt: "Beach sunset with waves",
-      size: "small",
+        id: 4,
+        src: "/images/gallery.png",
+        alt: "Beach sunset with waves",
+        size: "small",
     },
     {
-      id: 5,
-      src: "/images/gallery.png",
-      alt: "Beach sunset with waves",
-      size: "small",
+        id: 5,
+        src: "/images/gallery.png",
+        alt: "Beach sunset with waves",
+        size: "small",
     },
     {
-      id: 6,
-      src: "/images/gallery.png",
-      alt: "Beach sunset with waves",
-      size: "small",
+        id: 6,
+        src: "/images/gallery.png",
+        alt: "Beach sunset with waves",
+        size: "small",
     },
     {
-      id: 7,
-      src: "/images/gallery.png",
-      alt: "Beach sunset with waves",
-      size: "large",
+        id: 7,
+        src: "/images/gallery.png",
+        alt: "Beach sunset with waves",
+        size: "large",
     },
-  ]
+]
+
+export const promises = [
+    {
+        icon: <FaHotel className="text-primary text-7xl" />,
+        title: "Handpicked Hotels",
+        description: "Only top-tier boutique style hotels selected for your comfort."
+    },
+    {
+        icon: <FaHeadset className="text-primary text-7xl" />,
+        title: "24/7 AI Concierge",
+        description: "Jesse, your AI host, is available round the clock for support."
+    },
+    {
+        icon: <FaQuestionCircle className="text-primary text-7xl" />,
+        title: "Personalized Experience",
+        description: "We tailor your trip through a detailed pre-trip questionnaire."
+    },
+    {
+        icon: <FaMobileAlt className="text-primary text-7xl" />,
+        title: "All-in-One",
+        description: "Manage your experience easily from our intuitive web app."
+    },
+    {
+        icon: <FaGift className="text-primary text-7xl" />,
+        title: "Welcome Package",
+        description: "Includes T-shirt, Cap, Wine & Jesse Bobble Head for your journey."
+    },
+    {
+        icon: <FaGlobeAmericas className="text-primary text-7xl" />,
+        title: "Global Consistency",
+        description: "Expect the same top-notch service no matter your destination."
+    },
+    {
+        icon: <FaTags className="text-primary text-7xl" />,
+        title: "Best Value",
+        description: "Competitive pricing ensures you get the best bang for your buck."
+    },
+    {
+        icon: <FaBan className="text-primary text-7xl" />,
+        title: "No Bad Surprises",
+        description: "No low-rated hotels, no dirty rooms, no poor service – ever."
+    },
+    {
+        icon: <FaStar className="text-primary text-7xl" />,
+        title: "5-Star Service",
+        description: "We maintain 5-star service standards at all our locations."
+    },
+];

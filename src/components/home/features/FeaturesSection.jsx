@@ -28,13 +28,13 @@ const FeaturesSection = () => {
                 <Image
                   src={item.icon}
                   alt={item.title}
-                  width={50}
-                  height={50}
+                  width={80}
+                  height={80}
                   className="shrink-0"
                 />
                 <div>
-                  <h3 className="text-md font-semibold text-[#003366]">{item.title}</h3>
-                  <p className="text-sm text-gray-600 mt-1">{item.description}</p>
+                  <h3 className="md:text-xl text-lg font-semibold text-[#003366]">{item.title}</h3>
+                  <p className="md:text-md text-xs text-gray-600 mt-1">{item.description}</p>
                 </div>
               </div>
             </SwiperSlide>

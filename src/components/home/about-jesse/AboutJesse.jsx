@@ -13,13 +13,6 @@ const AboutJesse = () => {
                             Jesse is your personal digital assistant, always ready to help you make the most of your stay with Beach
                             Bums Inn & Suites. From recommending the best local restaurants and beach spots to helping you check
                             availability or book experiences, Jesse is here 24/7 to ensure everything runs smoothly.
-                            Jesse is your personal digital assistant, always ready to help you make the most of your stay with Beach
-                            Bums Inn & Suites. From recommending the best local restaurants and beach spots to helping you check.
-                            Jesse is your personal digital assistant, always ready to help you make the most of your stay with Beach
-                            Bums Inn & Suites. From recommending the best local restaurants and beach spots to helping you check
-                            availability or book experiences, Jesse is here 24/7 to ensure everything runs smoothly.
-                            Jesse is your personal digital assistant, always ready to help you make the most of your stay with Beach
-                            Bums Inn & Suites. From recommending the best local restaurants and beach spots to helping you check.
                         </p>
                     </div>
 
@@ -42,13 +35,6 @@ const AboutJesse = () => {
                             Whether you need early check-in assistance, directions to the nearest surf shop, or ideas for a romantic
                             night out in Ft. Lauderdale, Jesse has you covered with instant answers and friendly guidance. Think of
                             Jesse as your always-on vacation buddy, dedicated to making your trip effortless and unforgettable.
-                            Jesse is your personal digital assistant, always ready to help you make the most of your stay with Beach
-                            Bums Inn & Suites. From recommending the best local restaurants and beach spots to helping you check.
-                            Whether you need early check-in assistance, directions to the nearest surf shop, or ideas for a romantic
-                            night out in Ft. Lauderdale, Jesse has you covered with instant answers and friendly guidance. Think of
-                            Jesse as your always-on vacation buddy, dedicated to making your trip effortless and unforgettable.
-                            Jesse is your personal digital assistant, always ready to help you make the most of your stay with Beach
-                            Bums Inn & Suites. From recommending the best local restaurants and beach spots to helping you check.
                         </p>
                     </div>
                 </div>

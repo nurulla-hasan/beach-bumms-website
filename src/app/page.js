@@ -5,6 +5,8 @@ import FeaturesSection from "@/components/home/features/FeaturesSection";
 import Gallery from "@/components/home/gallery/Gallery";
 import Hero from "@/components/home/hero/Hero";
 import Hotels from "@/components/home/hotels/Hotels";
+import HowItWorksSection from "@/components/home/how-it-works/HowItWorksSection";
+import OurPromise from "@/components/home/our-promise/OurPromise";
 import Testimonials from "@/components/home/testimonials/Testimonials ";
 import VipCard from "@/components/home/vip-card/VipCard";
 import Welcome from "@/components/home/welcome-page/Welcome";
@@ -15,6 +17,8 @@ export default function Home() {
     <>
       <Hero />
       {/* <Welcome /> */}
+      <OurPromise/>
+      <HowItWorksSection/>
       <AboutUs />
       <FeaturesSection />
       <Hotels/>

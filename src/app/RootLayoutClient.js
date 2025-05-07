@@ -25,7 +25,7 @@ export default function RootLayoutClient({ children }) {
             !hideNavbar && <Navbar />
           }
           {/* Content */}
-          <div className={`container min-h-[calc(100vh-72px)] mx-auto max-w-fulll`}>
+          <div className={`container min-h-[calc(100vh-72px)] mx-auto max-w-full`}>
             {children}
           </div>
           {/* <Footer /> */}

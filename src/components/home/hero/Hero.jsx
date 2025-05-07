@@ -1,20 +1,18 @@
-import PageContainer from '@/components/PageContainer/PageContainer';
-import Image from 'next/image';
-import React from 'react';
 
 const Hero = () => {
     return (
-        <>
-            <div className=''>
-                <Image
-                    src='/images/hero.png'
-                    width={3640}
-                    height={2040}
-                    alt=''
-                    className='md:w-full md:h-[calc(100vh-96px)]'
-                />
+        <div className='max-w-7xl mx-auto px-2'>
+            <div className='w-full h-[calc(100vh-96px)] rounded-xl overflow-hidden'>
+                <iframe
+                    className='w-full h-full'
+                    src="https://www.youtube.com/embed/J2grFKR2188"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowFullScreen
+                ></iframe>
             </div>
-        </>
+        </div>
     );
 };
 

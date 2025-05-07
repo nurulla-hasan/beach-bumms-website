@@ -12,7 +12,7 @@ const OurPromise = () => {
     return (
 
         <PageContainer>
-            <h2 className="text-4xl font-bold mb-4 text-gray-800">Our Promise</h2>
+            <h2 className="text-4xl font-bold mb-4 text-title_color">Our Promise</h2>
             <p className="text-gray-500 mb-12 max-w-2xl">
                 Here's what you can expect when you travel with Beach Bumms.
             </p>

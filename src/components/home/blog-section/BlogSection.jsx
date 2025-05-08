@@ -4,6 +4,7 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 import PageContainer from "@/components/PageContainer/PageContainer";
 import { blogPosts } from "@/data/data";
 import { FaArrowRightLong } from "react-icons/fa6";
+import Link from "next/link";
 
 
 
@@ -42,9 +43,11 @@ const BlogSection = () => {
               <p className="text-sm text-gray-600 flex-grow">
                 {post.description}
               </p>
-              <button className="mt-4 text-xs 3xl:text-sm bg-primary text-white font-semibold py-2 rounded hover:bg-hover_color transition">
-                SEE MORE
-              </button>
+              <Link href={`/blogs/${post.id}`}>
+                <button className="mt-4 w-full text-xs 3xl:text-sm bg-primary text-white font-semibold py-2 rounded hover:bg-hover_color transition cursor-pointer">
+                  SEE MORE
+                </button>
+              </Link>
             </div>
           </div>
         ))}

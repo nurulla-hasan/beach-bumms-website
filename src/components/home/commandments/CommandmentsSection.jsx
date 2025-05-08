@@ -1,8 +1,7 @@
 "use client";
-
 import PageContainer from "@/components/PageContainer/PageContainer";
 import { commandments } from "@/data/data";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -30,14 +29,14 @@ const CommandmentsSection = () => {
                     Jesse’s 10 Commandments
                 </h2>
                 <ul className="space-y-4">
-                    <AnimatePresence>
                         {commandments.slice(0, visibleItems).map((item, index) => (
                             <motion.li
                                 key={index}
                                 initial={{ opacity: 0, y: 500 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0 }}
-                                transition={{ duration: 1.2, ease: "easeOut" }}
+                                transition={{ duration: 0.8, ease: "easeOut" }}
+                                viewport={{ once: false }}
                                 className="flex items-start gap-6 p-3 bg-[#effbff] rounded-lg"
                             >
                                 <span>{item.icon}</span>
@@ -47,7 +46,6 @@ const CommandmentsSection = () => {
                                 </div>
                             </motion.li>
                         ))}
-                    </AnimatePresence>
                 </ul>
             </div>
         </PageContainer>

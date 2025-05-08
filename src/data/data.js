@@ -60,6 +60,7 @@ export const features = [
 
 export const blogPosts = [
     {
+        id: 1,
         title: "Top 5 Must-Do Activities Around Beach Bumms",
         date: "February 20, 2024",
         description:
@@ -67,6 +68,7 @@ export const blogPosts = [
         image: "/images/blog1.png",
     },
     {
+        id: 2,
         title: "Top 5 Must-Do Activities Around Beach Bumms",
         date: "February 20, 2024",
         description:
@@ -74,6 +76,7 @@ export const blogPosts = [
         image: "/images/blog1.png",
     },
     {
+        id: 3,
         title: "Top 5 Must-Do Activities Around Beach Bumms",
         date: "February 20, 2024",
         description:

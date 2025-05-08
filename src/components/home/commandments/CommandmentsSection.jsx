@@ -25,7 +25,7 @@ const CommandmentsSection = () => {
 
     return (
         <PageContainer>
-            <div className="z-50 min-h-[803px]" ref={ref}>
+            <div className="z-[-50] min-h-[1000px]" ref={ref}>
                 <h2 className="text-2xl md:text-3xl font-bold text-[#003366] mb-8">
                     Jesse’s 10 Commandments
                 </h2>
@@ -37,13 +37,14 @@ const CommandmentsSection = () => {
                                 initial={{ opacity: 0, y: 500 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 exit={{ opacity: 0 }}
-                                transition={{ duration: 0.9, ease: "easeOut" }}
-                                className="flex items-start gap-3 p-3 bg-[#effbff] rounded"
+                                transition={{ duration: 1.2, ease: "easeOut" }}
+                                className="flex items-start gap-6 p-3 bg-[#effbff] rounded-lg"
                             >
-                                {item.icon}
-                                <p className="text-xs md:text-sm text-gray-800 leading-relaxed">
-                                    {item.text}
-                                </p>
+                                <span>{item.icon}</span>
+                                <div className="flex flex-col gap-1">
+                                    <h3 className="text-sm md:text-xl font-semibold text-[#003366]">{item.title}</h3>
+                                    <p className=" text-xs md:text-sm text-gray-800">{item.text}</p>
+                                </div>
                             </motion.li>
                         ))}
                     </AnimatePresence>

@@ -10,13 +10,13 @@ export const aboutCards = [
         title: "What We Do",
         description:
             "From web and app development to AI-powered tools and brand design, we deliver comprehensive solutions tailored to our clients’ goals. We build products that are functional.",
-            link: "/what-we-do"
+        link: "/what-we-do"
     },
     {
         title: "Why We Do It",
         description:
             "We believe in the power of technology to transform lives and businesses. Our mission is to solve real-world problems through smart solutions that are efficient and future-ready.",
-            link: "/what-we-ado-it"
+        link: "/what-we-ado-it"
     },
 ];
 
@@ -307,43 +307,53 @@ export const promises = [
 
 export const commandments = [
     {
+        title: "Curated Boutique Hotels",
         text: "We shall provide our hand-selected boutique-style hotels that are up to par with the Beach Bumms ecosystem. We’ve done the leg work for you, no surprises.",
-        icon: <FaHotel className="text-primary mt-1" size={30} />,
+        icon: <FaHotel className="text-primary mt-1" size={50} />,
     },
     {
+        title: "24/7 AI Concierge",
         text: "You shall receive 24/7 customer service via Jesse, your AI Host and Concierge. From booking to check-out and everything in between.",
-        icon: <FaHeadset className="text-primary mt-1" size={30} />,
+        icon: <FaHeadset className="text-primary mt-1" size={50} />,
     },
     {
+        title: "Personalized Questionnaire",
         text: "We shall provide a Questionnaire to ensure your personal experience is enhanced to the fullest.",
-        icon: <FaQuestionCircle className="text-primary mt-1" size={30} />,
+        icon: <FaQuestionCircle className="text-primary mt-1" size={50} />,
     },
     {
+        title: "VIP Digital Access",
         text: "We shall provide you your personalized digital VIP Card and custom-designed packages conveniently at your fingertips.",
-        icon: <FaIdBadge className="text-primary mt-1" size={30} />,
+        icon: <FaIdBadge className="text-primary mt-1" size={50} />,
     },
     {
+        title: "All-in-One Mobile App",
         text: "We shall provide an easy-to-use App so everything and anything is accessible to you 24/7.",
-        icon: <FaMobileAlt className="text-primary mt-1" size={30} />,
+        icon: <FaMobileAlt className="text-primary mt-1" size={50} />,
     },
     {
+        title: "Welcome Package",
         text: "You shall receive your Welcome Package which includes a Beach Bumms T-shirt, Cap, bottle of Wine, and our Famous Jesse Bobble Head. So you can take him on your adventures.",
-        icon: <FaGift className="text-primary mt-1" size={30} />,
+        icon: <FaGift className="text-primary mt-1" size={50} />,
     },
     {
+        title: "Consistent Experience",
         text: "We shall provide consistency, at any location, at any time. The Beach Bumms experience will always be the same, no matter where you are. Unforgettable!",
-        icon: <FaGlobeAmericas className="text-primary mt-1" size={30} />,
+        icon: <FaGlobeAmericas className="text-primary mt-1" size={50} />,
     },
     {
+        title: "Best Value Guarantee",
         text: "We shall always uphold value with our competitive pricing and always provide you the best bang for your buck.",
-        icon: <FaDollarSign className="text-primary mt-1" size={30} />,
+        icon: <FaDollarSign className="text-primary mt-1" size={50} />,
     },
     {
+        title: "No Bad Experiences",
         text: "You shall not deal with low-rated hotels, dirty rooms, or bad customer service, just to name a few.",
-        icon: <FaBan className="text-primary mt-1" size={30} />,
+        icon: <FaBan className="text-primary mt-1" size={50} />,
     },
     {
+        title: "Always 5-Star",
         text: "We shall always honor our 5-star services at all times at all of our locations.",
-        icon: <FaStar className="text-primary mt-1" size={30} />,
+        icon: <FaStar className="text-primary mt-1" size={50} />,
     },
 ];

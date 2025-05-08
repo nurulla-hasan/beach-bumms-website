@@ -22,7 +22,7 @@ export default function Home() {
       <CommandmentsSection/>
       {/* <OurPromise/> */}
       {/* <HowItWorksSection/> */}
-      <FeaturesSection />
+      {/* <FeaturesSection /> */}
       <Hotels/>
       <VipCard/>
       <AboutJesse/>

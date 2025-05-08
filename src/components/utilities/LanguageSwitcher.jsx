@@ -25,7 +25,7 @@ const LanguageSwitcher = () => {
     <div className="relative inline-block text-left">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-2 px-1 py-1 border rounded-sm overflow-hidden border-gray-500 bg-[#023b4d] hover:shadow-md transition"
+        className="flex items-center gap-2 px-2 py-1 border rounded-sm overflow-hidden border-gray-500 bg-[#023b4d] hover:shadow-md transition"
         title={selected.title}
       >
         <Image src={selected.flag} alt={selected.name} width={20} height={15} />

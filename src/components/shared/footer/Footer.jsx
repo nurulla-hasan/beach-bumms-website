@@ -1,3 +1,4 @@
+import PageContainer from "@/components/PageContainer/PageContainer"
 import Image from "next/image"
 import Link from "next/link"
 import { FaFacebookF, FaTwitter, FaTiktok, FaYoutube, FaSearch } from "react-icons/fa"
@@ -6,7 +7,7 @@ import { SiVisa, SiMastercard, SiDiscover, SiPaypal, SiJcb } from "react-icons/s
 const Footer = () => {
     return (
         <footer className="bg-title_color text-white py-12">
-            <div className="container mx-auto px-4 max-w-7xl">
+            <PageContainer>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* More Column */}
                     <div>
@@ -177,7 +178,7 @@ const Footer = () => {
                         />
                     </div>
                 </div>
-            </div>
+            </PageContainer>
         </footer>
     )
 }

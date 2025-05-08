@@ -26,7 +26,7 @@ const HotelCard = ({ hotel }) => {
 
   return (
     <div className="bg-gray-100 rounded-md overflow-hidden mb-4 flex flex-col md:flex-row">
-      <div className="md:w-2/4 relative md:h-auto m-4">
+      <div className="md:w-2/4 relative md:h-auto h-50 m-4">
         <Image src={image || "/placeholder.svg"} alt={name} fill className="object-cover rounded-lg" />
       </div>
       <div className="p-4 md:w-2/3 flex flex-col">

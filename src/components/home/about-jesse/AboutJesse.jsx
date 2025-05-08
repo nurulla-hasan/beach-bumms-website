@@ -18,7 +18,7 @@ const AboutJesse = () => {
 
                     {/* Middle Column - Jesse Image */}
                     <div className="md:w-1/3 flex justify-center">
-                        <div className="relative w-full max-w-sm aspect-square">
+                        <div className="relative w-full max-w-sm h-52 aspect-square">
                             <Image
                                 src="/images/jesse.png"
                                 alt="Jesse - Your Beach Bums digital assistant"

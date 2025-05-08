@@ -25,7 +25,7 @@ const CommandmentsSection = () => {
 
     return (
         <PageContainer>
-            <div className="z-50" ref={ref}>
+            <div className="z-50 min-h-[803px]" ref={ref}>
                 <h2 className="text-2xl md:text-3xl font-bold text-[#003366] mb-8">
                     Jesse’s 10 Commandments
                 </h2>

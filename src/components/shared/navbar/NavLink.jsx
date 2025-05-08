@@ -9,7 +9,7 @@ export default function NavLink({ href, title }) {
   return (
     <Link
       href={href}
-      className={`text-white hover:text-gray-300 px-3 py-2 text-sm font-medium transition-colors cursor-pointer ${isActive ? "underline underline-offset-4" : ""}`}
+      className={`text-white hover:text-gray-300 px-3 py-2 text-sm 3xl:text-lg font-medium transition-colors cursor-pointer ${isActive ? "underline underline-offset-4" : ""}`}
     >
       <span>{title}</span>
     </Link>

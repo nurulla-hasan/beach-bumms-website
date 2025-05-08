@@ -2,7 +2,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination, Mousewheel } from 'swiper/modules';
+import { Pagination, Mousewheel, Autoplay } from 'swiper/modules';
 import PageContainer from "@/components/PageContainer/PageContainer";
 import { features } from "@/data/data";
 import Image from "next/image";
@@ -16,10 +16,14 @@ const FeaturesSection = () => {
 
       <div className="h-40 border border-gray-300 rounded-2xl overflow-hidden">
         <Swiper
+          autoplay={{
+            delay: 2000,
+            disableOnInteraction: false,
+          }}
           direction="vertical"
           pagination={{ clickable: true }}
           mousewheel={true}
-          modules={[Pagination, Mousewheel]}
+          modules={[Pagination, Mousewheel, Autoplay]}
           className="h-full"
         >
           {features.map((item, index) => (

@@ -3,8 +3,9 @@ import PageContainer from '@/components/PageContainer/PageContainer';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination, Mousewheel } from 'swiper/modules';
+import { Pagination, Mousewheel, Autoplay } from 'swiper/modules';
 import { promises } from "@/data/data";
+import { FaArrowRightLong } from 'react-icons/fa6';
 
 
 
@@ -19,18 +20,20 @@ const OurPromise = () => {
 
             <div className="h-40 border border-gray-300 rounded-2xl overflow-hidden">
                 <Swiper
+                    autoplay={{
+                        delay: 2000,
+                        disableOnInteraction: false,
+                    }}
+                    loop={true}
                     direction="vertical"
                     pagination={{ clickable: true }}
                     mousewheel={true}
-                    modules={[Pagination, Mousewheel]}
+                    modules={[Pagination, Mousewheel, Autoplay]}
                     className="h-full"
                 >
                     {promises.map((promise, index) => (
                         <SwiperSlide key={index}>
-                            <div
-                                key={index}
-                                className="flex gap-4 items-center justify-center h-full px-4 bg-[#f3fbff]"
-                            >
+                            <div className="flex gap-4 items-center justify-center h-full px-4 bg-[#f3fbff]">
                                 <div className='flex items-center gap-4'>
                                     <div className="mb-4">{promise.icon}</div>
                                     <div>
@@ -44,10 +47,12 @@ const OurPromise = () => {
                 </Swiper>
             </div>
 
-            <div className="mt-12 text-center">
-                <button className="bg-primary text-white px-6 py-2 text-sm font-semibold rounded hover:bg-hover_color transition cursor-pointer">
-                    LEARN MORE
-                </button>
+            <div className="mt-12 flex justify-center">
+                <div className='relative text-xs font-medium bg-primary hover:bg-hover_color w-28 hover:w-34 mt-2 py-2 px-4 rounded text-white cursor-pointer group transition-all duration-300'>
+                    <span className="transition-all duration-300">LEARN MORE</span>
+                    <FaArrowRightLong size={16} color='#ffffff' className="absolute top-2 right-3 opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+                    />
+                </div>
             </div>
         </PageContainer >
     );

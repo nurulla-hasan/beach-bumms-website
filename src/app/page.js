@@ -1,6 +1,7 @@
 import AboutJesse from "@/components/home/about-jesse/AboutJesse";
 import AboutUs from "@/components/home/about-us/AboutUs";
 import BlogSection from "@/components/home/blog-section/BlogSection";
+import CommandmentsSection from "@/components/home/commandments/CommandmentsSection";
 import FeaturesSection from "@/components/home/features/FeaturesSection";
 import Gallery from "@/components/home/gallery/Gallery";
 import Hero from "@/components/home/hero/Hero";
@@ -17,9 +18,10 @@ export default function Home() {
     <>
       <Hero />
       {/* <Welcome /> */}
+      <AboutUs />
+      <CommandmentsSection/>
       <OurPromise/>
       <HowItWorksSection/>
-      <AboutUs />
       <FeaturesSection />
       <Hotels/>
       <VipCard/>

@@ -38,7 +38,7 @@ const Gallery = () => {
 
   return (
     <PageContainer>
-      <div className="container mx-auto max-w-7xl">
+      <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-blue-900 mb-8">Gallery</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4">

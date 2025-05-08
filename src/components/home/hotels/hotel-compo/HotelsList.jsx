@@ -23,7 +23,7 @@ const HotelsList = ({ hotels, totalHotels, location }) => {
             </div>
 
             <div className="space-y-4">
-                {hotels.map((hotel) => (
+                {hotels.slice(0, 3).map((hotel) => (
                     <HotelCard key={hotel.id} hotel={hotel} />
                 ))}
             </div>

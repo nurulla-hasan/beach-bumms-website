@@ -14,6 +14,7 @@ import {
   RiMailLine,
 } from "react-icons/ri"
 import NavLink from "./NavLink"
+import LanguageSwitcher from "@/components/utilities/LanguageSwitcher"
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -47,7 +48,7 @@ const Navbar = () => {
 
   return (
     <div className="md:h-[96px] h-[64px] ">
-      <nav className={`fixed w-full mx-auto z-50 transition-all duration-300 ${isScrolled? 'md:py-0':'md:py-2'}`}
+      <nav className={`fixed w-full mx-auto z-50 transition-all duration-300 ${isScrolled ? 'md:py-0' : 'md:py-2'}`}
       >
         <div className="max-w-[1248px] 3xl:max-w-[1528px] mx-auto px-4 sm:px-6 lg:px-8 py-2 bg-black md:rounded-full">
           <div className="flex items-center justify-between h-16">
@@ -68,7 +69,9 @@ const Navbar = () => {
             </div>
 
             {/* Login Button */}
-            <div className="hidden md:block">
+            <div className="hidden md:flex items-center gap-2">
+              <LanguageSwitcher />
+              
               <Link
                 href="/auth/login"
                 className="inline-flex items-center gap-2 bg-primary hover:bg-cyan-700 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
@@ -76,6 +79,7 @@ const Navbar = () => {
                 Log In
                 <RiLoginBoxLine className="h-4 w-4" />
               </Link>
+
             </div>
 
             {/* Mobile menu button - Enhanced for visibility */}

@@ -20,8 +20,8 @@ export default function Home() {
       {/* <Welcome /> */}
       <AboutUs />
       <CommandmentsSection/>
-      <OurPromise/>
-      <HowItWorksSection/>
+      {/* <OurPromise/> */}
+      {/* <HowItWorksSection/> */}
       <FeaturesSection />
       <Hotels/>
       <VipCard/>

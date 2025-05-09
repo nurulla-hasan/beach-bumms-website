@@ -5,6 +5,7 @@ import Image from "next/image"
 import { galleryImages } from "@/data/data"
 import { RxCross2 } from "react-icons/rx";
 import PageContainer from "@/components/PageContainer/PageContainer";
+import { FaArrowRightLong } from "react-icons/fa6";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null)
@@ -140,10 +141,12 @@ const Gallery = () => {
           </div>
         </div>
 
-        <div className="text-center mt-8">
-          <button className="bg-primary hover:hprimary text-white px-6 py-2 rounded font-medium transition-colors">
-            VIEW MORE
-          </button>
+        <div className="mt-10 flex justify-center">
+          <div className='relative text-xs font-medium bg-primary hover:bg-hover_color w-28 hover:w-34 py-3 px-4 rounded text-white cursor-pointer group transition-all duration-300'>
+            <span className="transition-all duration-300">VIEW MORE</span>
+            <FaArrowRightLong size={16} color='#ffffff' className="absolute top-3 right-3 opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+            />
+          </div>
         </div>
       </div>
 
@@ -159,7 +162,7 @@ const Gallery = () => {
               className="absolute top-2 right-2 z-10 bg-white/80 p-2 rounded-full hover:bg-white"
             >
               {/* Using a simple X instead of Lucide icon */}
-              <span className="text-xl font-bold cursor-pointer"><RxCross2 color="#000000"/></span>
+              <span className="text-xl font-bold cursor-pointer"><RxCross2 color="#000000" /></span>
             </button>
 
             <div className="relative w-full h-[80vh]">

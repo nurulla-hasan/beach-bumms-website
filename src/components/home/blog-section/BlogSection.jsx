@@ -54,9 +54,9 @@ const BlogSection = () => {
       </div>
 
       <div className="mt-10 flex justify-center">
-        <div className='relative text-xs font-medium bg-primary hover:bg-hover_color w-28 hover:w-34 mt-2 py-2 px-4 rounded text-white cursor-pointer group transition-all duration-300'>
+        <div className='relative text-xs font-medium bg-primary hover:bg-hover_color w-28 hover:w-34 mt-2 py-3 px-4 rounded text-white cursor-pointer group transition-all duration-300'>
           <span className="transition-all duration-300">LEARN MORE</span>
-          <FaArrowRightLong size={16} color='#ffffff' className="absolute top-2 right-3 opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+          <FaArrowRightLong size={16} color='#ffffff' className="absolute top-3 right-3 opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
           />
         </div>
       </div>

@@ -1,6 +1,7 @@
 import { restaurants } from "@/data/data"
 import Image from "next/image"
 import { FaStar, FaStarHalfAlt } from "react-icons/fa"
+import { FaArrowRightLong } from "react-icons/fa6"
 
 const RestaurantCard = ({ name, description, rating, reviews, image }) => {
   // Generate star rating
@@ -71,10 +72,12 @@ const VipCardServices = () => {
           ))}
         </div>
 
-        <div className="text-center mt-10">
-          <button className="bg-primary text-xs hover:bg-hover_color text-white px-6 py-3 rounded font-medium transition-colors cursor-pointer">
-            LEARN MORE
-          </button>
+        <div className="mt-10 flex justify-center">
+          <div className='relative text-xs font-medium bg-primary hover:bg-hover_color w-28 hover:w-34 mt-2 py-3 px-4 rounded text-white cursor-pointer group transition-all duration-300'>
+            <span className="transition-all duration-300">LEARN MORE</span>
+            <FaArrowRightLong size={16} color='#ffffff' className="absolute top-3 right-3 opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300"
+            />
+          </div>
         </div>
       </div>
     </section>

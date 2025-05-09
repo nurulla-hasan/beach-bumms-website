@@ -60,7 +60,7 @@ const FilterSidebar = () => {
       </FilterSection>
 
       <FilterSection title="Rating">
-        <div className="mb-2">
+        <div className="mb-2 text-gray-600">
           <p className="text-sm text-gray-700 mb-2">Show only ratings more than</p>
           <div className="flex items-center justify-between">
             {[1, 2, 3, 4, 5].map((rating) => (

@@ -10,12 +10,9 @@ export default function RootLayoutClient({ children }) {
   const pathName = usePathname();
 
   const noNavbarRoutes = ["/auth", "/admin", "/404"];
-  const hideNavbar = noNavbarRoutes.some((route) =>
+  const hideNavFooter = noNavbarRoutes.some((route) =>
     pathName.startsWith(route)
   );
-
-  // const isHiddenRoute = ["/home", '/auth/login', '/auth/signup', '/auth/forgot-password', '/auth/verify-email', '/auth/reset-password'];
-  // const hidePadding = isHiddenRoute.includes(pathName);
 
   return (
 
@@ -23,13 +20,15 @@ export default function RootLayoutClient({ children }) {
       <Provider store={store}>
         <PrivateRoute>
           {
-            !hideNavbar && <Navbar />
+            !hideNavFooter && <Navbar />
           }
           {/* Content */}
           <div className={`container min-h-[calc(100vh-72px)] mx-auto max-w-full`}>
             {children}
           </div>
-          <Footer />
+          {
+            !hideNavFooter && <Footer />
+          }
         </PrivateRoute>
       </Provider>
     </>

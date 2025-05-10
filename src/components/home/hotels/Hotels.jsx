@@ -10,7 +10,7 @@ const Hotels = () => {
   
     return (
       <PageContainer>
-        <h1 className="text-2xl font-bold text-blue-900 mb-6">Hotels</h1>
+        <h1 className="md:text-3xl text-2xl font-bold text-title_color mb-6">Hotels</h1>
         <div className="flex flex-col lg:flex-row">
           <FilterSidebar />
           <HotelsList hotels={hotels} location="Ft Lauderdale" />

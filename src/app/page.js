@@ -1,6 +1,7 @@
 import AboutJesse from "@/components/home/about-jesse/AboutJesse";
 import AboutUs from "@/components/home/about-us/AboutUs";
 import BlogSection from "@/components/home/blog-section/BlogSection";
+import CommandmentsScroll from "@/components/home/commandments-scroll/CommandmentsScroll";
 import CommandmentsSection from "@/components/home/commandments/CommandmentsSection";
 import FeaturesSection from "@/components/home/features/FeaturesSection";
 import Gallery from "@/components/home/gallery/Gallery";
@@ -19,7 +20,8 @@ export default function Home() {
       <Hero />
       {/* <Welcome /> */}
       <AboutUs />
-      <CommandmentsSection/>
+      <CommandmentsScroll/>
+      {/* <CommandmentsSection/> */}
       {/* <OurPromise/> */}
       {/* <HowItWorksSection/> */}
       {/* <FeaturesSection /> */}

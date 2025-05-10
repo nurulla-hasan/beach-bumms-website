@@ -16,7 +16,7 @@ const Breadcrumb = () => {
   console.log("Slug:", slug);
 
   return (
-    <div className="max-w-7xl 3xl:max-w-[1560px] mx-auto px-8 text-black">
+    <div className="max-w-7xl 3xl:max-w-[1400px] mx-auto md:px-8 px-4 text-black py-2">
       <div className="flex justify-between items-center text-sm text-gray-600 mt-4">
         <div className="breadcrumb flex items-center gap-2">
           {/* <span>Home</span> &gt; <span>About Us</span> &gt;{" "} */}

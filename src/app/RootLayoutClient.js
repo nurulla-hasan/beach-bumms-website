@@ -2,6 +2,7 @@
 import PrivateRoute from "@/components/privet-route/PrivetRoute";
 import Footer from "@/components/shared/footer/Footer";
 import Navbar from "@/components/shared/navbar/Navbar";
+import AgeVerification from "@/components/utilities/AgeVerification";
 import store from "@/redux/store";
 import { usePathname } from "next/navigation";
 import { Provider } from "react-redux";
@@ -19,6 +20,7 @@ export default function RootLayoutClient({ children }) {
     <>
       <Provider store={store}>
         <PrivateRoute>
+          <AgeVerification />
           {
             !hideNavFooter && <Navbar />
           }

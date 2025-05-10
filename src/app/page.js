@@ -20,17 +20,17 @@ export default function Home() {
       <Hero />
       {/* <Welcome /> */}
       <AboutUs />
-      <CommandmentsScroll/>
+      <CommandmentsScroll />
       {/* <CommandmentsSection/> */}
       {/* <OurPromise/> */}
       {/* <HowItWorksSection/> */}
       {/* <FeaturesSection /> */}
-      <Hotels/>
-      <VipCard/>
-      <AboutJesse/>
+      <Hotels />
+      <VipCard />
+      <AboutJesse />
       <BlogSection />
-      <Testimonials/>
-      <Gallery/>
+      <Testimonials />
+      <Gallery />
     </>
   );
 }
